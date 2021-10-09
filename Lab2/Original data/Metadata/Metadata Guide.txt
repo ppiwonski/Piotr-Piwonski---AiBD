@@ -1,0 +1,27 @@
+W folderze /Orginal Data znajduje się oryginalny plik drinks.csv.
+
+Oryginalnie przed rozpoczęciem analizy posiadamy o nim informacje:
+* drinks.csv - zawiera informacje na temat spożycia rożnych alkoholi(piwa, wódki oraz wina) w buelkach
+	na jednego mieszkańca oraz spożycia czystego alkocholu w 193 krajach. Plik zawiera kolumny:
+** country - typ danych: string, zawiera nazwę kraju, w którym przeprowadzono badanie.
+** beer_servings - typ danych: int, zakres: [0,inf), zawiera informacje o wypitych butelkach piwa przez 1 mieszkańca danego kraju.
+** spirit_servings - typ danych: int, zakres: [0,inf), zawiera informacje o wypitych butelkach wódki przez 1 mieszkańca danego kraju.
+** wine_servings - typ danych: int, zakres: [0,inf), zawiera informacje o wypitych butelkach wina przez 1 mieszkańca danego kraju.
+** total_liters_of_pure_alcohol - typ danych: float, zakres: [0,inf), zawiera informaje o spożyciu czystego alkoholu przez 1 mieszkańca w litrach.
+
+Po dokonniu wstępnej analizy w folderze /Analysis Data znajdują się pliki z wyodrębnionymi danymi:
+* drinks_beer.csv - zawiera informacje na temat spożycia piwa w buelkachna jednego mieszkańca.
+** country - typ danych: string, zawiera nazwę kraju, w którym przeprowadzono badanie.
+** beer_servings - typ danych: int, zakres: [0,inf), zawiera informacje o wypitych butelkach piwa przez 1 mieszkańca danego kraju.
+
+* drinks_spirit.csv- zawiera informacje na temat spożycia wódki w buelkachna jednego mieszkańca.
+** country - typ danych: string, zawiera nazwę kraju, w którym przeprowadzono badanie.
+** spirit_servings - typ danych: int, zakres: [0,inf), zawiera informacje o wypitych butelkach wódki przez 1 mieszkańca danego kraju.
+
+* drinks_wine.csv- zawiera informacje na temat spożycia wina w buelkachna jednego mieszkańca.
+** country - typ danych: string, zawiera nazwę kraju, w którym przeprowadzono badanie.
+** wine_servings - typ danych: int, zakres: [0,inf), zawiera informacje o wypitych butelkach wina przez 1 mieszkańca danego kraju.
+
+* total_alcohol.csv- zawiera informacje na temat spożycia czystego alkocholu.
+** country - typ danych: string, zawiera nazwę kraju, w którym przeprowadzono badanie.
+** total_liters_of_pure_alcohol - typ danych: float, zakres: [0,inf), zawiera informaje o spożyciu czystego alkoholu przez 1 mieszkańca w litrach.
