@@ -1,0 +1,6 @@
+Analizując surowe dane pobrane z platformy github zdecydowałem na przetworzenie danych do czystej, uporządkowanej postaci w sposób zapisania każdej z osobnych kolumn do innego pliku.
+Uważam, że dane beer_servings, spirit_servings, wine_servings oraz total_liter_of_pure_alcohol są osobnymi jednostaki obserwacji. 
+Zgodnie z zasadami Tidy data, jednostki obserwacji powinny znajdować się w osobnych kolumnach. 
+W moim przypadku łatwiej jest analizować dane po rozbiciu na osobne pliki.
+Podczas Cwiczenia pliki z analizą danych zamieściłem w folderze /Documents, pomimo że zawierają się w nich komendy, które działają na danych. 
+Jednakże decyzja ta wywołana była faktem, że pliki .ipynb wizualnie służą jako forma sprawozdania z dziaąłnia danego kodu, dlatego też umieściłem je jako winalny efekt prac, a nie jako operacje na danych. 
